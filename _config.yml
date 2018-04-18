@@ -15,8 +15,7 @@ sass:
   sass_dir: css
 
 # plugins
-plugins: [jekyll-paginate]
-paginate: 3
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
