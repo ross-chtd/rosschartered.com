@@ -1,0 +1,31 @@
+title: Ross Chartered
+email: info@rosschartered.com
+description: >- # this means to ignore newlines until "baseurl:"
+  A law firm serving Florida businesses and consumers throughout the country.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://wwww.rosschartered.com/" # the base hostname & protocol for your site, e.g. http://example.com
+
+show_social_icons: true
+# twitter_username: srossmia
+# github_username:  rosschtd
+
+# Build settings
+permalink: :title/
+sass:
+  sass_dir: css
+
+# plugins
+plugins: [jekyll-paginate]
+paginate: 3
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
