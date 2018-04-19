@@ -1,13 +1,8 @@
 ---
 layout: post
-title: A Sample Post
-summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, dolore.
+title: Ross Chartered Thinking
+summary: Thoughts about particular issues impacting businesses and consumers
 ---
 
-## Lorem
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, dolore.
-
-## More Lorem
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ipsam nam sit in omnis id. Ut molestiae non velit inventore quas, laborum dolorum maiores beatae animi aspernatur reprehenderit accusantium nostrum?
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ipsam nam sit in omnis id. Ut molestiae non velit inventore quas, laborum dolorum maiores beatae animi aspernatur reprehenderit accusantium nostrum?
+## Broadcasting to begin shortly
+Business constantly need to assess and reassess legal issues impacting their ability to grow and sustain their businesses. Ross Chtd hopes to provide guidance on some of the most popular issues here. 
