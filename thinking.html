@@ -7,3 +7,21 @@ permalink: /thinking/
 <div align="center">
   <h6><em>Status: <em>Preparing to broadcast legal topics every Florida limited liability company should address.</h6>
 </div>
+
+<section id="archive">
+  <div class="container py-3">
+    <div class="row">
+      <div class="col">
+        <h2 class="text-primary">Ross Chartered Thinking</h2>
+        <ul>
+          {% for post in site.posts %}
+            <li>
+              <span>{{ post.date | date: "%b %d, %Y" }}</span> -
+              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
