@@ -17,6 +17,13 @@
   }
 }
 
+  .nav-item.active{
+    background: $primary;
+    a {
+      color: white !important;
+    }
+  }
+
 img {
     display: block;
     margin-left: auto;
