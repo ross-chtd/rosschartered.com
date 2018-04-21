@@ -9,14 +9,14 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item">
-          <a href="{{ site.baseurl }}/business/" class="nav-link">Business</a>
+        <li{% if page.url == '/business.html' %} class="active"{% endif %}>
+           <a href="/business.html">Business</a>
         </li>
-        <li class="nav-item">
-          <a href="{{ site.baseurl }}/consumer/" class="nav-link">Consumer</a>
+         <li{% if page.url == '/consumer.html' %} class="active"{% endif %}>
+           <a href="/consumer.html">Consumer</a>
         </li>
-        <li class="nav-item">
-          <a href="{{ site.baseurl }}/thinking/" class="nav-link">Thinking</a>
+         <li{% if page.url == '/thinking.html' %} class="active"{% endif %}>
+           <a href="/thinking.html">Thinking</a>
         </li>
       </ul>
     </div>
