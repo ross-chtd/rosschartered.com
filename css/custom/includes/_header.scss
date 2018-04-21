@@ -18,10 +18,11 @@
 }
 
   .nav-item.active{
-    background: $primary;
-    a {
-      color: $primary !important;
-    }
+    color: black;
+  }
+
+  #nav .active{
+    border-bottom:2px solid #bada55;
   }
 
 img {
