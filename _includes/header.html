@@ -2,20 +2,20 @@
 <nav class="navbar navbar-expand-md navbar-light py-3">
   <div class="container">
       <a href="{{ site.baseurl }}/" class="navbar-brand">
-       <img src="../img/nav-logo.jpeg" alt="nav-logo width="25%" height="auto">
+       <img src="../img/nav-logo.jpeg" alt="nav-logo" width="25%" height="auto">
      </a>
     <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-        <li{% if page.url == '/business' %} class="active" "nav-item" {% endif %}>
+        <li{% if page.url == '/business' %} class="active nav-item" {% endif %}>
            <a href="/business" class="nav-link">Business</a>
         </li>
-         <li{% if page.url == '/consumer' %} class="active" "nav-item" {% endif %}>
+         <li{% if page.url == '/consumer' %} class="active nav-item" {% endif %}>
            <a href="/consumer" class="nav-link">Consumer</a>
         </li>
-         <li{% if page.url == '/thinking' %} class="active" "nav-item" {% endif %}>
+         <li{% if page.url == '/thinking' %} class="active nav-item" {% endif %}>
            <a href="/thinking" class="nav-link">Thinking</a>
         </li>
       </ul>
