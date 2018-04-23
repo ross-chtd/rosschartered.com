@@ -7,12 +7,15 @@ url: "https://wwww.rosschartered.com/" # the base hostname & protocol for your s
 
 show_social_icons: true
 # twitter_username: srossmia
-github_username:  ross-chtd
+github_username: ross-chtd
 
 # Build settings
 permalink: :title/
 sass:
   sass_dir: css
+
+# Google Analytics
+google_analytics: UA-118015993-1
 
 # plugins
 
