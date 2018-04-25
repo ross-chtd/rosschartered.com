@@ -1,4 +1,8 @@
 ---
 layout: default
 ---
-Businesses, entrepreneurs and consumers rely on Ross Chartered to understand the law and reach their goals. Please visit the [Business](/business) or [Consumer](/consumer) pages to learn more about the firm's services. Ross Chartered also offers thoughts on issues affecting clients and prospective clients on the [Thinking](/thinking) page. You are welcome to contact the firm by email at the link below.
+<div style="text-align: justify">
+  <p>Ross Chartered combines advanced technology with a practical approach to provide businesses, entrepreneurs and consumers with quality counsel.</p>
+
+  <p>The firm regularly works with exceptional outside professionals to achieve its clients' goals, and sometimes Ross Chartered receives referral fees as a result. This website is for informational purposes only; do not rely on it for legal advice. Only a signed client-engagement agreement that includes all fee arrangements creates an attorney-client relationship.</p>
+</div>

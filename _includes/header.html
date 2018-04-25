@@ -1,5 +1,5 @@
 <!-- header.html -->
-<nav class="navbar navbar-expand-md navbar-light py-3">
+<nav class="navbar sticky-top navbar-expand-md navbar-light py-3">
   <div class="container">
       <a href="{{ site.baseurl }}/" class="navbar-brand">
        <img src="../img/nav-logo.jpeg" alt="nav-logo" width="100" height="auto">
@@ -9,14 +9,14 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-        <li{% if page.url == '/business/' %} class="active" {% endif %}>
-           <a href="/business" class="nav-link">Business</a>
+        <li{% if page.url == '/businesses/' %} class="active" {% endif %}>
+           <a href="/businesses" class="nav-link">Businesses</a>
         </li>
-         <li{% if page.url == '/consumer/' %} class="active" {% endif %}>
-           <a href="/consumer" class="nav-link">Consumer</a>
+         <li{% if page.url == '/consumers/' %} class="active" {% endif %}>
+           <a href="/consumers" class="nav-link">Consumers</a>
         </li>
-         <li{% if page.url == '/thinking/' %} class="active" {% endif %}>
-           <a href="/thinking" class="nav-link">Thinking</a>
+         <li{% if page.url == '/strategy/' %} class="active" {% endif %}>
+           <a href="/strategy" class="nav-link">Strategy</a>
         </li>
       </ul>
     </div>
