@@ -6,7 +6,7 @@ permalink: /consumers/
 
 ### Consumers and empowered individuals
 
-Ross Chartered counsels consumers in a range of laws.
+Ross Chartered counsels consumers in a range of laws so they can make effective decisions to reach their goals.
 
 ### Federal
 
