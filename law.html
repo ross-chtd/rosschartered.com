@@ -3,21 +3,21 @@ layout: default
 title: Law
 permalink: /law/
 ---
-<script>
-redirect_to = 'https://www.rosschartered.com';
+<!-- <script>
+redirect_to = '{{ site.baseurl }}/prospective';
 gopaywall_passwordprotect(redirect_to);
-</script>
+</script> -->
 <section id="archive">
     <div class="row">
       <div class="col">
-        <h3 class="text-primary">Strategy</h3>
+        <h3 class="text-primary">Law</h3>
 
         <ul>
-          {% for post in site.posts %}
-            <li>
-              <!-- <span>{{ post.date | date: "%b %d, %Y" }}</span> - -->
-              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </li>
+            {% for post in site.posts %}
+                <li>
+                    <!-- <span>{{ post.date | date: "%b %d, %Y" }}</span> - -->
+                    <a href="{{ post.url | prepend: site.baseurl }}"><b>{{ post.title }}</b> | <em>{{ post.summary }}</em></a>
+                </li>
           {% endfor %}
         </ul>
       </div>
