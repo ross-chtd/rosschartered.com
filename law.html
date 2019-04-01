@@ -3,10 +3,11 @@ layout: default
 title: Law
 permalink: /law/
 ---
-<!-- <script>
+<!-- 
+[comment] <script>
 redirect_to = '{{ site.baseurl }}/prospective';
 gopaywall_passwordprotect(redirect_to);
-</script> -->
+</script> [comment]
 <section id="archive">
     <div class="row">
       <div class="col">
@@ -15,7 +16,7 @@ gopaywall_passwordprotect(redirect_to);
         <ul>
             {% for post in site.posts %}
                 <li>
-                    <!-- <span>{{ post.date | date: "%b %d, %Y" }}</span> - -->
+                    [comment] <span>{{ post.date | date: "%b %d, %Y" }}</span> [comment]
                     <a href="{{ post.url | prepend: site.baseurl }}"><b>{{ post.title }}</b> | <em>{{ post.summary }}</em></a>
                 </li>
           {% endfor %}
@@ -23,3 +24,4 @@ gopaywall_passwordprotect(redirect_to);
       </div>
     </div>
 </section>
+-->
